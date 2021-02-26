@@ -11,3 +11,11 @@ d. Server searches for the file name in its shared drive (you can assume there i
 e. Server sends the file to the client
 f. Clients stores it in its local drive
 g. Client closes the connection
+
+
+After you have successfully run the program, collect a wireshark trace at the client side and compute the following metrics 
+
+a. How many TCP connections are made
+b. What is the port number of the server and what is that of the client
+c. How many packets are exchanged between client and server
+d. How much time is needed to download the file
